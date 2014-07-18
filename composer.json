@@ -1,0 +1,22 @@
+{
+    "name" : "Sb15/Boxberry-Client",
+    "description": "Boxberry Client",
+    "keywords": ["boxberry client"],
+    "homepage": "https://github.com/Sb15/Boxberry-Client",
+    "type": "library",
+    "license":  "MIT",
+    "require": {
+        "php": ">=5.3",
+        "pimple/pimple": "1.0.*"
+    },
+    "authors": [
+        {
+            "name": "Alexander Perov"
+        }
+    ],
+    "autoload" : {
+        "psr-0": {
+            "Sb15": "src/"
+        }
+    }
+}
